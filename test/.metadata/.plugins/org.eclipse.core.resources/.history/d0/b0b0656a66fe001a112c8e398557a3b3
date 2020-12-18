@@ -1,0 +1,13 @@
+package dao;
+
+import entity.User;
+
+
+public class UserDao {
+	
+	// ÓÃ»§µÇÂ½
+	public User login(){
+		
+	}
+
+}

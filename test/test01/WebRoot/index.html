@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"
+
+    </head>
+    <body>
+        <p>用户登录</p>
+        <form action="http://127.0.0.1:8080/test/servlet/servlet1" method="get">
+        <p>
+            <label for="userName">用户名： </label>
+            <input type="text" name="userName"/>
+        </p>
+        <p>
+            <label for="password">登陆密码：</label>
+            <input type="password" name="password"/>
+        </p>
+        <p>
+            请输入验证码：
+            <input name = "code"/>
+            <img id = "codeImage" src="http://127.0.0.1:8080/test/servlet/servletIamge" onclick="onclickImage()">
+        </p>
+        <p>
+            <input type="submit" value="开始登陆"/>
+        </p>
+        </form>
+    </body>
+    <script type="text/javascript">
+        function onclickImage(){
+            var codeImage = document.getElementById("codeImage");
+            codeImage.src = "http://127.0.0.1:8080/test/servlet/servletIamge?t="+Math.random();
+            // alert(1);
+        }
+    </script>
+</html>

@@ -1,0 +1,11 @@
+package dao;
+
+
+public class UserDao {
+	
+	// ÓÃ»§µÇÂ½
+	public User login(){
+		
+	}
+
+}

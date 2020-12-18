@@ -1,0 +1,6 @@
+九月 24, 2020 4:18:05 下午 com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+信息: Package starting up at Thu Sep 24 16:18:05 CST 2020
+九月 24, 2020 4:18:06 下午 com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService checkForWorkspaceUpdates
+信息: Latest version of package has already been enabled in the workspace; check finished in 13ms
+九月 24, 2020 4:27:25 下午 org.hibernate.eclipse.HibernatePlugin start
+信息: HibernatePlugin Started
